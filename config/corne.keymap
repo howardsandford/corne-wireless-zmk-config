@@ -25,6 +25,7 @@
       &none         &kp Z         &kp X         &kp C         &kp V         &kp B                     &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &none
 
 
+
 //                                           |     TAB     |     CTRL    | SHIFT/ENTER |           |     SPC     |   ALT/DEL   |   LAYER 1   |
                                                 &kp TAB       &kp LCTRL     &mt LSHIFT ENT            &kp SPACE     &mt LALT BKSP &to 1
 
@@ -45,6 +46,7 @@
 
 
 
+
 //                                           |   LAYER 0   |     CTRL    | SHIFT/ENTER |           |     SPC     |   ALT/DEL   |   LAYER 2   |
                                                &to 0         &kp LCTRL     &mt LSHIFT ENT            &kp SPACE     &mt LALT BKSP &to 2
 
@@ -62,6 +64,8 @@
 
 // |     SHFT    |             |             |             |             |             |           |      _      |      +      |      {      |      }      |     "|"     |      ~      |
      &kp LSHFT     &trans        &trans        &trans        &trans        &trans                    &kp UNDER     &kp PLUS      &kp LBRC      &kp RBRC      &kp PIPE      &kp TILDE
+
+
 
 
 //                                           |   LAYER 0   |     CTRL    | SHIFT/ENTER |           |     SPC     |   ALT/DEL   |   LAYER 0   |
