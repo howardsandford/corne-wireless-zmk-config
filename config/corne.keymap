@@ -30,15 +30,14 @@
     keymap {
         compatible = "zmk,keymap";
 
-        QWERTY {
+        COLEMAKDH {
             bindings = <
-&none  &kp Q  &kp W    &kp E      &kp R                 &kp T                 &kp Y               &kp U      &kp I    &kp O     &kp P  &none
-&none  &kp A  &kp S    &kp D      &kp F                 &kp G                 &kp H               &kp J      &kp K    &kp L  &kp SEMI  &none
-&none  &kp Z  &kp X    &kp C      &kp V                 &kp B                 &kp N               &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none
-                     &kp TAB  &kp LCTRL  &mt LEFT_SHIFT ENTER    &mt LEFT_GUI SPACE  &mt LALT BACKSPACE      &to 1
+&none  &kp Q  &kp W  &kp F             &kp P                 &kp B                 &kp J                   &kp L      &kp U       &kp Y  &kp SEMICOLON  &none
+&none  &kp A  &kp R  &kp S             &kp T                 &kp G                 &kp M                   &kp N      &kp E       &kp I          &kp O  &none
+&none  &kp Z  &kp X  &kp C             &kp D                 &kp V                 &kp K                   &kp H  &kp COMMA  &kp PERIOD      &kp SLASH  &none
+                     &to 0  &kp LEFT_CONTROL  &mt LEFT_SHIFT ENTER    &mt LEFT_GUI SPACE  &mt LEFT_ALT BACKSPACE      &to 1
             >;
-
-            label = "QWERTY";
+            label = "Colemak-DH";
         };
 
         NAV_NUM {
@@ -63,15 +62,16 @@
             label = "Bluetooth";
         };
 
-        COLEMAKDH {
+        QWERTY {
             bindings = <
-&none  &kp Q  &kp W  &kp F             &kp P                 &kp B                 &kp J                   &kp L      &kp U       &kp Y  &kp SEMICOLON  &none
-&none  &kp A  &kp R  &kp S             &kp T                 &kp G                 &kp M                   &kp N      &kp E       &kp I          &kp O  &none
-&none  &kp Z  &kp X  &kp C             &kp D                 &kp V                 &kp K                   &kp H  &kp COMMA  &kp PERIOD      &kp SLASH  &none
-                     &to 0  &kp LEFT_CONTROL  &mt LEFT_SHIFT ENTER    &mt LEFT_GUI SPACE  &mt LEFT_ALT BACKSPACE      &to 1
+&none  &kp Q  &kp W    &kp E      &kp R                 &kp T                 &kp Y               &kp U      &kp I    &kp O     &kp P  &none
+&none  &kp A  &kp S    &kp D      &kp F                 &kp G                 &kp H               &kp J      &kp K    &kp L  &kp SEMI  &none
+&none  &kp Z  &kp X    &kp C      &kp V                 &kp B                 &kp N               &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none
+                     &kp TAB  &kp LCTRL  &mt LEFT_SHIFT ENTER    &mt LEFT_GUI SPACE  &mt LALT BACKSPACE      &to 1
             >;
 
-            label = "Colemak-DH";
+            label = "QWERTY";
         };
+
     };
 };
